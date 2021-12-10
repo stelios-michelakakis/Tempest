@@ -4,10 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
+import { VotingPhaseComponent } from './pages/Mobile/voting-phase/voting-phase.component';
+import { IdeasComponent } from './pages/Mobile/ideas/ideas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VotingPhaseComponent,
+    IdeasComponent
   ],
   imports: [
     BrowserModule,
