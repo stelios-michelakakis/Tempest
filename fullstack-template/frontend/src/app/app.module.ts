@@ -8,7 +8,6 @@ import { VotingPhaseComponent } from './pages/Mobile/voting-phase/voting-phase.c
 import { IdeasComponent } from './pages/Mobile/ideas/ideas.component';
 import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
