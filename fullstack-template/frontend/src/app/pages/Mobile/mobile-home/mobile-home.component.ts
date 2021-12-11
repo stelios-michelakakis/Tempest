@@ -13,4 +13,15 @@ export class MobileHomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onJoinClick(){
+
+  }
+
+  onCreateClick(){
+
+  }
+
+  onLoadClick(){
+
+  }
 }
