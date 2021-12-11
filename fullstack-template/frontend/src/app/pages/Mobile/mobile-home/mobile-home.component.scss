@@ -1,0 +1,10 @@
+#mobile_home {
+	width: 100%;
+	height: 100%;
+	background-image: url("Tempest/fullstack-template/frontend/src/assets/Mobile_Background.png ");
+	background-size: cover;
+	background-position: center ;
+	display: grid ;
+	grid-template-columns: 100%;
+	grid-template-rows: 30% 70% ;
+}
