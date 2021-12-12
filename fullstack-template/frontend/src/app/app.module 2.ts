@@ -1,13 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 import { VotingPhaseComponent } from './pages/Mobile/voting-phase/voting-phase.component';
 import { IdeasComponent } from './pages/Mobile/ideas/ideas.component';
 import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.component';
-//import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,10 +18,11 @@ import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.comp
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
-    //MatButtonModule
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
+ 
