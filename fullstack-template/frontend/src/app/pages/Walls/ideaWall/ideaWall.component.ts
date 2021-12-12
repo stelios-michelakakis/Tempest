@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ami-fullstack-ideas',
-  templateUrl: './ideas.component.html',
-  styleUrls: ['./ideas.component.scss']
+  selector: 'ami-fullstack-ideaWall',
+  templateUrl: './ideaWall.component.html',
+  styleUrls: ['./ideaWall.component.scss']
 })
 export class IdeasComponent implements OnInit {
   id: number;
