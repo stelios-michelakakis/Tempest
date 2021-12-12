@@ -19,19 +19,21 @@
 
 #line {
 	border: 1px solid #DBDBDB;
-	width: 50%;
+	position: absolute;
+	left: 18px;
+	width: 182px;
+	top: 150px;
 }
 
 #setup {
 	padding-top: 30%;
-	margin: 40px;
+	margin: 100px;
 	justify-content: center;
 	align-items: center;
 }
 
 #home_buttons {
 	align-items: center;
-	margin: 70px;
 	display: grid;
 }
 
