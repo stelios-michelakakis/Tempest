@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ideas.component.scss']
 })
 export class IdeasComponent implements OnInit {
+  id: number;
+  type: number;
+  content: object;
 
   constructor() { }
 
