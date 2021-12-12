@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app.routing';
 import { VotingPhaseComponent } from './pages/Mobile/voting-phase/voting-phase.component';
 import { IdeasComponent } from './pages/Walls/ideaWall/ideaWall.component';
 import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.comp
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

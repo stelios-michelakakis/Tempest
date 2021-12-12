@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,5 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="mobile_home">
+      <div id="header">
+        <h1>TEMPEST</h1>
+        <hr id="line">
+      </div>
+      <div id="setup">
+          <div id="home_buttons">
+              <button class="button"
+              (click)="onJoinClick()" id="Join">Join</button>
+              <button class="button"
+              (click)="onCreateClick()" id="Create">Create</button>
+              <button class="button"
+              (click)="onLoadClick()" id="Load">Load </button>
+          </div>
+      </div>
+  </div>
+  </body>
 </html>
