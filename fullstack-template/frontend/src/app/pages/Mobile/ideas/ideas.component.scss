@@ -1,3 +1,6 @@
+html {
+  background-color: #ececec;
+}
 #logo {
   width: 40%;
   padding: 0.2em;
@@ -9,12 +12,4 @@
   color: white;
   border-bottom-right-radius: 3%;
   border-bottom-left-radius: 3%;
-}
-#workspace {
-  margin-left: 10%;
-  margin-top: 5%;
-  width: 80%;
-  height: 800px;
-  background-color: #3e3e3e;
-  border-radius: 2%;
 }
