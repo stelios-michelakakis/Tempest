@@ -10,13 +10,14 @@ ENV PATH /frontend/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /frontend/package.json
+RUN npm config set unsafe-perm true
 RUN npm install
 RUN npm install -g @angular/cli@7.3.9
 
 # add app
 COPY . /frontend
 
-
+USER node
 # -------------- STAGE 2: Run --------------
 
 CMD ng serve --host 0.0.0.0 --poll 1000
