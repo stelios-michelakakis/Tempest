@@ -8,6 +8,7 @@ import { VotingPhaseComponent } from './pages/Mobile/voting-phase/voting-phase.c
 import { IdeasComponent } from './pages/Walls/ideaWall/ideaWall.component';
 import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InputMethodComponent } from './pages/Mobile/input-method/input-method.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     VotingPhaseComponent,
     IdeasComponent,
-    MobileHomeComponent
+    MobileHomeComponent,
+    InputMethodComponent
   ],
   imports: [
     BrowserModule,
