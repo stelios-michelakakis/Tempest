@@ -18,12 +18,14 @@
       <div id="setup">
           <div id="home_buttons">
               <button class="button"
+              routerLink="voting-phase"
               (click)="onJoinClick()" id="Join">Join</button>
               <button class="button"
               (click)="onCreateClick()" id="Create">Create</button>
               <button class="button"
               (click)="onLoadClick()" id="Load">Load </button>
           </div>
+          <router-outlet></router-outlet>
       </div>
   </div>
   </body>

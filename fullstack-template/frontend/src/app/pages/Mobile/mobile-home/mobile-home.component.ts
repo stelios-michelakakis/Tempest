@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
 
 
 @Component({
@@ -9,12 +11,13 @@ import { Component, OnInit } from '@angular/core';
 export class MobileHomeComponent implements OnInit {
 
   constructor() { }
+  
 
   ngOnInit(): void {
   }
 
   onJoinClick(){
-
+    
   }
 
   onCreateClick(){
