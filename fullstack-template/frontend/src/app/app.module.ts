@@ -10,6 +10,7 @@ import { MobileHomeComponent } from './pages/Mobile/mobile-home/mobile-home.comp
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputMethodComponent } from './pages/Mobile/input-method/input-method.component';
 import { JoinComponent } from './pages/Mobile/join/join.component';
+import { CreateComponent } from './pages/Mobile/create/create.component';
 
 
 
@@ -20,7 +21,8 @@ import { JoinComponent } from './pages/Mobile/join/join.component';
     IdeasComponent,
     MobileHomeComponent,
     InputMethodComponent,
-    JoinComponent
+    JoinComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
