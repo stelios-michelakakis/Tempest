@@ -44,13 +44,30 @@
 	background-color: #506068;
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 20% 80%;
+	grid-template-rows: 20% 60% 20%;
+}
+
+#hello{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: 300;
+	font-size: 20px;
+	color: white;
 }
 
 #text_input {
-	width: 70%;
-	margin: 0 auto;
+	width: 80%;
+	margin-left: 40px;
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 30px;
+	color: white;
 }
+
+::placeholder { 
+	opacity: 0.5; 
+	font-size: 20px;
+  }
 
 .button {
 	margin: 12px;
@@ -61,6 +78,15 @@
 	border: none;
 	background-color: #272727;
 	color: white;
+}
+
+#next {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: transparent url("src/assets/left_arrow.png") no-repeat;
+	transform: rotate(180deg);
 }
 
 h1 {
