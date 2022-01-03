@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widwth=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/fullstack-template/frontend/src/app/pages/Mobile/input-method/input-method.component.scss"
+    />
+
+    <style>
+      ::placeholder {
+        font-size: 1.25rem;
+      }
+      body {
+        background-size: cover;
+        background-image: url(/fullstack-template/frontend/src/assets/Mobile_Background.png);
+      }
+      .button--back {
+        padding-left: 5vw;
+      }
+
+      h1 {
+        padding-left: 5vw;
+        letter-spacing: 3px;
+        font-weight: 400;
+        color: white;
+        text-decoration: none;
+        padding-bottom: 5vw;
+        border-width: 0px 0px 1px 0px;
+        border-style: solid;
+        border-image: linear-gradient(to right, #fff 50%, transparent 50%) 100%
+          1;
+      }
+
+      .text--input--transparent {
+        border-color: white;
+        background-color: transparent;
+        border-radius: 20px;
+        border-width: 1px;
+        padding: 2vw 3vh;
+        font-size: 20px;
+        color: white;
+      }
+
+      .username {
+        padding: 10vw;
+        padding-top: 30vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button button--back">
+      <a href="#"
+        ><img
+          src="/fullstack-template/frontend/src/assets/left_arrow.png"
+          alt=""
+      /></a>
+    </div>
+    <h1>TEMPEST</h1>
+
+    <form action="" method="get" class="username">
+      <input
+        class="text--input--transparent"
+        type="text"
+        name="username"
+        placeholder="Enter Your Name"
+      />
+    </form>
+  </body>
+</html>
