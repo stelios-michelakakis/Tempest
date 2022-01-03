@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputMethodComponent } from './pages/Mobile/input-method/input-method.component';
 import { JoinComponent } from './pages/Mobile/join/join.component';
 import { CreateComponent } from './pages/Mobile/create/create.component';
+import { ChooseNameComponent } from './pages/Mobile/choose-name/choose-name.component';
 
 
 
@@ -22,7 +23,8 @@ import { CreateComponent } from './pages/Mobile/create/create.component';
     MobileHomeComponent,
     InputMethodComponent,
     JoinComponent,
-    CreateComponent
+    CreateComponent,
+    ChooseNameComponent
   ],
   imports: [
     BrowserModule,
