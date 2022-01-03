@@ -12,6 +12,9 @@ import { InputMethodComponent } from './pages/Mobile/input-method/input-method.c
 import { JoinComponent } from './pages/Mobile/join/join.component';
 import { CreateComponent } from './pages/Mobile/create/create.component';
 import { ChooseNameComponent } from './pages/Mobile/choose-name/choose-name.component';
+import { CreateModesComponent } from './pages/Mobile/create-modes/create-modes.component';
+import { CreateTimerComponent } from './pages/Mobile/create-timer/create-timer.component';
+import { CreateOverviewComponent } from './pages/Mobile/create-overview/create-overview.component';
 
 
 
@@ -24,7 +27,10 @@ import { ChooseNameComponent } from './pages/Mobile/choose-name/choose-name.comp
     InputMethodComponent,
     JoinComponent,
     CreateComponent,
-    ChooseNameComponent
+    ChooseNameComponent,
+    CreateModesComponent,
+    CreateTimerComponent,
+    CreateOverviewComponent
   ],
   imports: [
     BrowserModule,
