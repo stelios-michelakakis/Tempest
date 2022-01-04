@@ -1,0 +1,80 @@
+#mobile_home {
+	width: 100%;
+	height: 100%;
+	display: grid ;
+	grid-template-columns: 100%;
+	grid-template-rows: 20% 80% ;
+}
+
+#create_header {
+	background-color:#343434;
+	display: grid ;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100;
+	//align-items: center;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-top: 20px;
+
+}
+
+#right_header{
+    position: absolute;
+	right: 2%; 
+	top: 6%;
+	margin-right: 20px;
+}
+
+#avatar {
+	width: 60px;
+    height: 60px;
+	border-radius: 50%;
+}
+
+#back {
+	height: 32px;
+	padding-left: 36px;
+	padding-right: 10px;
+	background: transparent url("src/assets/left_arrow.png") no-repeat ;
+	cursor: pointer;
+	border: none;
+}
+
+#main {
+	color: white;
+	background-color: #506068;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 20% 40% 40%;
+	text-align: center;
+	padding-top: 20%;
+	font-size: 20px;
+}
+
+#appt-time{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60px;
+    border-radius: 9px;
+    border: none;
+}
+
+#next {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	height: 60px;
+	border-radius: 28px;
+	background-color: white;
+	border: none;
+}
+
+h1 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+}

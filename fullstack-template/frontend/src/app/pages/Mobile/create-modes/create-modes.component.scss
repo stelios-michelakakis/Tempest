@@ -41,52 +41,51 @@
 }
 
 #main {
+	color: white;
 	background-color: #506068;
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 20% 60% 20%;
-}
-
-#hello{
-	margin-top: 20px;
-	margin-left: 20px;
-	font-weight: 300;
+	grid-template-rows: 20% 40% 40%;
+	text-align: center;
+	padding-top: 20%;
 	font-size: 20px;
-	color: white;
 }
 
-#text_input {
-	width: 80%;
-	margin-left: 40px;
-	background-color: transparent;
-	border-color: transparent;
-	font-size: 30px;
-	color: white;
-}
-
-::placeholder { 
-	opacity: 0.5; 
+#modes {
 	font-size: 20px;
-  }
+	display: grid ;
+	grid-template-columns: 100%;
+	grid-template-rows: 33% 33% 33%;
+}
 
 .button {
-	margin: 12px;
-	padding: 10px 40px;
-	font-weight: 200;
-	font-size: 30px;
-	border-radius: 30px;
+	background-color: transparent;
 	border: none;
-	background-color: #272727;
 	color: white;
+	margin: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 9px;
 }
+
+#active:enabled{
+	background: rgba(16, 16, 16, 0.32);
+}
+
+button:active{
+	background: rgba(16, 16, 16, 0.32);
+  }
 
 #next {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	background: transparent url("src/assets/left_arrow.png") no-repeat;
-	transform: rotate(180deg);
+	margin-left: 30%;
+	margin-right: 30%;
+	height: 60px;
+	border-radius: 28px;
+	background-color: white;
+	border: none;
 }
 
 h1 {
