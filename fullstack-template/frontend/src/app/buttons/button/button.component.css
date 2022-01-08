@@ -1,0 +1,11 @@
+.button {
+  font-size: 1em;
+  border: none;
+  margin: 5px;
+  border-radius: 9px;
+}
+
+.button img {
+  min-width: none;
+  max-width: 50px;
+}

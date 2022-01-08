@@ -1,0 +1,18 @@
+.user--long {
+  justify-content: space-evenly;
+  display: flex;
+  width: min-content;
+  min-width: 120px;
+  color: #040404;
+  border-radius: 50px 20px 20px 50px;
+  margin: 4px;
+}
+.user--long img {
+  margin-left: -20%;
+}
+.user--long span {
+  font-size: 10px;
+  font-weight: 400;
+  align-self: center;
+  vertical-align: middle;
+}

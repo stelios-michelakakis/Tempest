@@ -1,0 +1,30 @@
+.toolbar {
+  background-color: #000;
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+.toolbar section {
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  background-color: #c4c4c4;
+  font-weight: lighter;
+  margin-top: 5px;
+  color: white;
+}
+
+.toolbar section > * {
+  background-color: #626262;
+}
+
+#zoom-controls,
+#undo-redo {
+  display: flex;
+  flex-direction: row;
+}
+#zoom-controls > * {
+  width: 100%;
+}

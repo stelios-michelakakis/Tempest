@@ -1,0 +1,8 @@
+<div
+  *ngFor="let user of users"
+  [ngStyle]="{ 'background-color': user.color }"
+  class="user user--long"
+>
+  <img src="{{ user.avatar }}" alt="avatar" />
+  <span>{{ user.username }}</span>
+</div>
