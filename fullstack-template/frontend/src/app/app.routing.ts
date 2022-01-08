@@ -24,12 +24,9 @@ const routes: Routes = [
   {path:'Mobile/create-modes', component:CreateModesComponent},
   {path:'Mobile/create-timer', component:CreateTimerComponent},
   {path:'Mobile/create-overview', component:CreateOverviewComponent},
-
   { path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   { path: 'socket-events', loadChildren: () => import('./pages/socket-events/socket-events.module').then(m => m.SocketEventsModule) },
   { path: 'tasks', loadChildren: () => import('./pages/tasks/tasks.module').then(m => m.TasksModule) },
-  { path: '**', redirectTo: 'Mobile/create-overview', pathMatch: 'full' },
- 
 ];
 
 @NgModule({
@@ -37,3 +34,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+

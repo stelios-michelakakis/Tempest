@@ -15,6 +15,10 @@ import { ChooseNameComponent } from './pages/Mobile/choose-name/choose-name.comp
 import { CreateModesComponent } from './pages/Mobile/create-modes/create-modes.component';
 import { CreateTimerComponent } from './pages/Mobile/create-timer/create-timer.component';
 import { CreateOverviewComponent } from './pages/Mobile/create-overview/create-overview.component';
+import {WelcomeScreenComponent} from './pages/Walls/welcome-screen/welcome-screen.component';
+import {UsersComponent} from './pages/Walls/users/users.component';
+import {ScreenControlsComponent} from './pages/Walls/screen-controls/screen-controls.component';
+import { WallComponent } from './main-wall/wall/wall.component';
 
 
 
@@ -30,7 +34,11 @@ import { CreateOverviewComponent } from './pages/Mobile/create-overview/create-o
     ChooseNameComponent,
     CreateModesComponent,
     CreateTimerComponent,
-    CreateOverviewComponent
+    CreateOverviewComponent,
+    WelcomeScreenComponent,
+    UsersComponent,
+    ScreenControlsComponent,
+    WallComponent
   ],
   imports: [
     BrowserModule,

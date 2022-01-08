@@ -1,0 +1,25 @@
+#header {
+    height: 81px;
+    display: flex;
+    align-items: center;
+    background-color: #4E82D1;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+}
+
+#main {
+    background-color:#343434;
+    display: grid ;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+#topic {
+
+}
